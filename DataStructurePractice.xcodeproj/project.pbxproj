@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E3665E7A2237B24300EB0C68 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3665E792237B24300EB0C68 /* main.cpp */; };
+		E21B5BF6226E963F00BC1467 /* 2二叉树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E21B5BF4226E963F00BC1467 /* 2二叉树.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E3665E762237B24300EB0C68 /* DataStructurePractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructurePractice; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3665E792237B24300EB0C68 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E21B5BF4226E963F00BC1467 /* 2二叉树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2二叉树.cpp"; sourceTree = "<group>"; };
+		E241E35A2265559700B6AFE8 /* 1二叉树的遍历问题.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1二叉树的遍历问题.cpp"; sourceTree = "<group>"; };
+		E27C478E22616D1D00456BFB /* 6括号匹配.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "6括号匹配.cpp"; sourceTree = "<group>"; };
+		E27C47902261CDB400456BFB /* 7汉诺塔.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "7汉诺塔.cpp"; sourceTree = "<group>"; };
+		E27C47922261DE2E00456BFB /* 8反转诗句.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "8反转诗句.cpp"; sourceTree = "<group>"; };
+		E28FF641225C2A30002434BA /* 3递归进制转换.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "3递归进制转换.cpp"; sourceTree = "<group>"; };
+		E28FF645225C4082002434BA /* 4找出N个数中的最大值-递归.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "4找出N个数中的最大值-递归.cpp"; sourceTree = "<group>"; };
+		E28FF647225C43D6002434BA /* 5加数字-递归.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5加数字-递归.cpp"; sourceTree = "<group>"; };
+		E2B1DAB72253236900CC1548 /* 2逆波兰表达式.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2逆波兰表达式.cpp"; sourceTree = "<group>"; };
+		E31D507F2247955C00690667 /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		E33CC299223C9C1B006A48F5 /* 4有序的双链表的实现.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "4有序的双链表的实现.cpp"; sourceTree = "<group>"; };
+		E33CC29B223CA8FD006A48F5 /* 5:非递减有序集合合并.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5:非递减有序集合合并.cpp"; sourceTree = "<group>"; };
+		E346BB222246352500928BBC /* 1循环链队列.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1循环链队列.cpp"; sourceTree = "<group>"; };
+		E3665E762237B24300EB0C68 /* DataStructurePractice */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = sourcecode.cpp.cpp; path = DataStructurePractice; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3665E792237B24300EB0C68 /* 1约瑟夫环.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1约瑟夫环.cpp"; sourceTree = "<group>"; };
+		E38BA7AD223C82AE00C2E58C /* 2构造有序的单链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2构造有序的单链表.cpp"; sourceTree = "<group>"; };
+		E38BA7B9223C952000C2E58C /* 3单链表的实现.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "3单链表的实现.cpp"; sourceTree = "<group>"; };
+		E3999DAE223CD34D00D395D7 /* 6集合合并.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "6集合合并.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,10 +54,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E241E3592265537900B6AFE8 /* 二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				E241E35A2265559700B6AFE8 /* 1二叉树的遍历问题.cpp */,
+				E21B5BF4226E963F00BC1467 /* 2二叉树.cpp */,
+			);
+			path = "二叉树";
+			sourceTree = "<group>";
+		};
+		E31D507E2247954300690667 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E31D507F2247955C00690667 /* test.cpp */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		E346BB21224634EF00928BBC /* 栈与队列、递归 */ = {
+			isa = PBXGroup;
+			children = (
+				E346BB222246352500928BBC /* 1循环链队列.cpp */,
+				E2B1DAB72253236900CC1548 /* 2逆波兰表达式.cpp */,
+				E28FF641225C2A30002434BA /* 3递归进制转换.cpp */,
+				E28FF645225C4082002434BA /* 4找出N个数中的最大值-递归.cpp */,
+				E28FF647225C43D6002434BA /* 5加数字-递归.cpp */,
+				E27C478E22616D1D00456BFB /* 6括号匹配.cpp */,
+				E27C47902261CDB400456BFB /* 7汉诺塔.cpp */,
+				E27C47922261DE2E00456BFB /* 8反转诗句.cpp */,
+			);
+			path = "栈与队列、递归";
+			sourceTree = "<group>";
+		};
 		E3665E6D2237B24300EB0C68 = {
 			isa = PBXGroup;
 			children = (
-				E3665E782237B24300EB0C68 /* DataStructurePractice */,
+				E31D507E2247954300690667 /* Other */,
+				E3665E782237B24300EB0C68 /* 线性表 */,
+				E346BB21224634EF00928BBC /* 栈与队列、递归 */,
+				E241E3592265537900B6AFE8 /* 二叉树 */,
 				E3665E772237B24300EB0C68 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +105,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E3665E782237B24300EB0C68 /* DataStructurePractice */ = {
+		E3665E782237B24300EB0C68 /* 线性表 */ = {
 			isa = PBXGroup;
 			children = (
-				E3665E792237B24300EB0C68 /* main.cpp */,
+				E3665E792237B24300EB0C68 /* 1约瑟夫环.cpp */,
+				E38BA7AD223C82AE00C2E58C /* 2构造有序的单链表.cpp */,
+				E38BA7B9223C952000C2E58C /* 3单链表的实现.cpp */,
+				E33CC299223C9C1B006A48F5 /* 4有序的双链表的实现.cpp */,
+				E33CC29B223CA8FD006A48F5 /* 5:非递减有序集合合并.cpp */,
+				E3999DAE223CD34D00D395D7 /* 6集合合并.cpp */,
 			);
-			path = DataStructurePractice;
+			path = "线性表";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3665E7A2237B24300EB0C68 /* main.cpp in Sources */,
+				E21B5BF6226E963F00BC1467 /* 2二叉树.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
